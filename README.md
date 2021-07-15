@@ -12,6 +12,7 @@ Use this with https://github.com/ArclightPowered/lightfall
     CD to the folder of this fork.
     and run:
 '''Bash
+
     gradlew build
 '''
 
@@ -19,6 +20,7 @@ Use this with https://github.com/ArclightPowered/lightfall
     shift + right click and open in windows terminal
     and run:
 '''Bash
+
     ./gradlew.bat build
 '''
     
