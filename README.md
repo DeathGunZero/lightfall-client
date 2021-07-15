@@ -8,14 +8,14 @@ Use this with https://github.com/ArclightPowered/lightfall
 #How to USE this build?
 ===
     JDK-8 is required!!
-##IF u are using linux:
+## IF u are using linux:
     CD to the folder of this fork.
     and run:
     '''
     gradlew build
     '''
 
-##IF u are using WIN:
+## IF u are using WIN:
     shift + right click and open in windows terminal
     and run:
     '''
