@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "io/izzel/lightfall/client/mixin/MinecraftMixin": {
+      "getBackgroundMusicSelector": "Lnet/minecraft/client/Minecraft;func_238178_U_()Lnet/minecraft/client/audio/BackgroundMusicSelector;",
+      "Lnet/minecraft/client/Minecraft;world:Lnet/minecraft/client/world/ClientWorld;": "Lnet/minecraft/client/Minecraft;field_71441_e:Lnet/minecraft/client/world/ClientWorld;"
+    },
+    "io/izzel/lightfall/client/mixin/ClientLoginNetHandlerMixin": {
+      "Lnet/minecraft/network/NetworkManager;setNetHandler(Lnet/minecraft/network/INetHandler;)V": "Lnet/minecraft/network/NetworkManager;func_150719_a(Lnet/minecraft/network/INetHandler;)V",
+      "handleLoginSuccess": "Lnet/minecraft/client/network/login/ClientLoginNetHandler;func_147390_a(Lnet/minecraft/network/login/server/SLoginSuccessPacket;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "io/izzel/lightfall/client/mixin/MinecraftMixin": {
+        "getBackgroundMusicSelector": "Lnet/minecraft/client/Minecraft;func_238178_U_()Lnet/minecraft/client/audio/BackgroundMusicSelector;",
+        "Lnet/minecraft/client/Minecraft;world:Lnet/minecraft/client/world/ClientWorld;": "Lnet/minecraft/client/Minecraft;field_71441_e:Lnet/minecraft/client/world/ClientWorld;"
+      },
+      "io/izzel/lightfall/client/mixin/ClientLoginNetHandlerMixin": {
+        "Lnet/minecraft/network/NetworkManager;setNetHandler(Lnet/minecraft/network/INetHandler;)V": "Lnet/minecraft/network/NetworkManager;func_150719_a(Lnet/minecraft/network/INetHandler;)V",
+        "handleLoginSuccess": "Lnet/minecraft/client/network/login/ClientLoginNetHandler;func_147390_a(Lnet/minecraft/network/login/server/SLoginSuccessPacket;)V"
+      }
+    }
+  }
+}
