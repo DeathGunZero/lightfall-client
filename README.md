@@ -21,7 +21,7 @@ When you have successfully completed the build, you can find the jar file in the
 
 ---------------------------------------------------------------
     Or u can download 
-```
+```java
 @Override
 protected void onDestroy() {
     EventBus.getDefault().unregister(this);
