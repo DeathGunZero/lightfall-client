@@ -11,7 +11,7 @@ Use this with https://github.com/ArclightPowered/lightfall
 ## IF u are using linux:
     CD to the folder of this fork.
     and run:  
-    `<gradlew build>`
+    gradlew build
 ## IF u are using WIN:
     shift + right click and open in windows terminal
     and run:  
@@ -21,4 +21,10 @@ When you have successfully completed the build, you can find the jar file in the
 
 ---------------------------------------------------------------
     Or u can download 
-`<hello world>`  
+```
+@Override
+protected void onDestroy() {
+    EventBus.getDefault().unregister(this);
+    super.onDestroy();
+}
+```  
