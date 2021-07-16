@@ -25,4 +25,4 @@ gradlew build
 When you have successfully completed the build, you can find the jar file in the build/libs directory.
 
 ---------------------------------------------------------------
-    Or u can download mod file from [here](https://github.com/DeathGunZero/lightfall-client/releases/tag/1.0)
+    Or u can download mod file from https://github.com/DeathGunZero/lightfall-client/releases/tag/1.0
